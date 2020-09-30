@@ -15,7 +15,7 @@ def fill_entry(number):
     pos += 1
     return
 
-
+#ADDITION OPERATION 
 def plus():
     global add_list
     global pos
@@ -25,7 +25,7 @@ def plus():
     pos = 0
     print(f'number list= {add_list} and pos = {pos}')
 
-
+#EQUALS OPERATION
 def equals():
     global add_list
     global pos
@@ -41,7 +41,7 @@ def equals():
     pos = 0
     text_box.insert(pos, total)
 
-
+#CLEAR THE INPUT AND RESULT FIELD OPERATION
 def clear():
     text_box.delete(0, 'end')
 
